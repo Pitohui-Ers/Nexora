@@ -186,7 +186,6 @@ li {
 }
 .serviceslogo {
   display: flex;
-
   text-align: center;
   justify-content: center;
 }
@@ -194,7 +193,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .card {
   border: 1px solid white;
@@ -280,4 +279,177 @@ li {
 .helpdesk img {
   width: 500px;
   height: 600px;
+}
+
+.sect6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.linecards {
+  display: flex;
+  gap: 20px;
+}
+.cardsect6 {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(223, 223, 223);
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: auto;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.cardbold6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  font-style: normal;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.cardlight6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  font-style: normal;
+  width: 300px;
+  color: #585858;
+  margin-bottom: 15px;
+}
+.cardpic6 {
+  margin-top: 5px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.sect7 {
+  display: flex;
+  margin-bottom: 100px;
+}
+.sect7logo {
+  display: flex;
+  text-align: center;
+}
+.lightbanner7 {
+  font-weight: 300;
+  font-size: 1rem;
+  width: 45vw;
+  margin-bottom: 50px;
+}
+.boldbanner7 {
+  font-weight: 500;
+  font-size: 2rem;
+  width: 35vw;
+}
+.lefttext {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.sect8paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.paycontainer {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  justify-content: center;
+  gap: 20px;
+}
+.paycard {
+  background-color: white;
+  height: auto;
+  padding: 30px 40px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgb(223, 223, 223);
+}
+.paycard h3 {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.paycard h5 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+.paycard h5 span {
+  font-size: 1rem;
+}
+.paycard p {
+  color: #585858;
+  margin-bottom: 25px;
+}
+
+.paycard ul {
+  display: flex;
+  flex-direction: column;
+}
+.paycard li {
+  list-style-type: circle;
+}
+
+.blackbutton {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 5px rgb(223, 223, 223);
+}
+.blackbutton a {
+  color: white;
+}
+.middlecard {
+  background-color: black;
+}
+
+.paycardblack {
+  background-color: black;
+  height: auto;
+  padding: 30px 40px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgb(95, 95, 95);
+  color: white;
+}
+.paycardblack .blackbutton {
+  background-color: #daf157;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 5px rgb(14, 14, 14);
+}
+.paycardblack .blackbutton a {
+  color: black;
+}
+.paycardblack h3 {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: white;
+}
+.paycardblack h5 {
+  font-weight: 500;
+  font-size: 2rem;
+  color: white;
+}
+.paycardblack h5 span {
+  font-size: 1rem;
+  color: white;
+}
+.paycardblack p {
+  color: #585858;
+  margin-bottom: 25px;
+}
+
+.paycardblack ul {
+  display: flex;
+  flex-direction: column;
+}
+.paycardblack li {
+  list-style-type: circle;
+  color: rgb(145, 144, 144);
 }
