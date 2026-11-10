@@ -358,6 +358,7 @@ li {
   grid-template-columns: 350px 350px 350px;
   justify-content: center;
   gap: 20px;
+  margin-bottom: 100px;
 }
 .paycard {
   background-color: white;
@@ -452,4 +453,58 @@ li {
 .paycardblack li {
   list-style-type: circle;
   color: rgb(145, 144, 144);
+}
+.sect9 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.sect9 .joinbtn {
+  width: 150px;
+}
+.blogimages {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+.truck {
+  position: relative;
+}
+.truck img {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+}
+.aftertruck {
+  position: relative;
+}
+.aftertruck img {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+}
+.aftertrucktext {
+  font-weight: 400;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 20px;
+  width: 350px;
+  background-color: #585858;
+}
+.trucktext {
+  font-weight: 400;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 20px;
+  width: 350px;
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
